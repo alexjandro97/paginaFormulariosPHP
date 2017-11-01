@@ -1,0 +1,68 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+}
+
+header .titulo {
+	width: 20%;
+	margin:auto;
+	font-family: 'Contrail One', cursive;
+}
+
+.nombre {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.texto {
+	width: 80%;
+	margin:auto;
+	padding: 150px 0;
+	text-align: center;
+	font-weight: 400px;
+	font-family: 'Contrail One', cursive;
+}
+
+.texto p {
+	letter-spacing: 2.5px;
+}
+
+.titulo h1, .texto p {
+	background: rgba(0,0,0,.6);
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.datos { 
+	clear: both;
+	background: #BDBDBD;
+	width: 20%;
+	margin:auto;
+
+}
+
+
+.tabla {
+    width: 100%;
+    font-size: 18px;
+}
+
+

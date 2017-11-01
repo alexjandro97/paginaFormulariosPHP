@@ -1,0 +1,119 @@
+/*
+			ESTILOS GENERALES DE LA PAGINA
+*/
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+body {
+	background: url(../img/bg.jpg);
+        background-attachment: fixed;
+	background-size: cover;
+}
+
+/*			ESTILOS DEL CONTENIDO DE LA PAGINA																*/
+
+.contenedor {
+	width: 100%;
+	
+}
+
+header {
+	width: 100%;
+	top: 0;
+}
+
+.cabecera {
+	width: 35%;
+	margin: auto;
+	font-weight: bold;
+        color: #fff;
+}
+
+.cabecera h2 {
+    background: rgba(0,0,0,.6);
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header hr {
+	margin-top: 5px;
+}
+
+.form-container {
+	clear: both;
+	width: 25%;
+	background: #A4A4A4;
+	opacity: .8;
+	margin: 45px auto;
+	padding: 10px;
+	border-radius: 4px;
+        overflow: hidden;
+}
+
+#logo {
+	width: 12%;
+	margin:auto;
+	font-size: 30px;
+	color: #FFFF00; 
+}
+
+#ciudad {
+	width: 100%;
+	font-size: 16px;
+	font-family: helvetica, arial;
+	padding: 5px;
+}
+
+.form-group {
+	width: 90%;
+	margin: 15px auto;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: helvetica, arial;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+	border: 2px solid #0040FF;
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	border: 2px solid #FE2E2E;
+}
+
+input[type="submit"]{
+	-webkit-box-shadow: 7px 9px 17px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 17px -4px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 17px -4px rgba(0,0,0,0.75);
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+}
+
+#radio-group {
+    font-size: 19px;
+}
+
+#radio-group label {
+    margin-left: 10px;
+    font-weight: bold;
+}
